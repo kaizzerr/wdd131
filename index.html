@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="scripts/getdates.js" defer></script>
 </head>
 
@@ -31,19 +31,28 @@
         <div class="card">
             <section class="card1">
                 <h2>About Me</h2>
-                <img src="images/profile.jpg" alt="My name is Kaizzer">
-                <p>My name is Kaizzer Gatan and I go by Kaizzer. I was born in the Philippines but I currently reside in Alberta, Canada.
+                <div class="cardsection1">
+                    <img src="images/profile.jpg" alt="My name is Kaizzer">
+                    <p>My name is Kaizzer Gatan but I go by Kaizzer. I was born in the Philippines but I currently reside in Alberta, Canada.
                     I would like to learn a lot from this class as it is beneficial.
                     I love reading books, playing games, and watching movies and TV shows.</p>
+                </div>
             </section>
             <section class="card2">
                 <h2>Alberta, Canada</h2>
-                <img src="images/Canada.png" alt="The Flag of Canada">
-                <p>Content of the second section. This may include additional descriptions, links, or other relevant resources.</p>
+                <div class="cardsection2">
+                    <img src="images/Canada.png" alt="The Flag of Canada">
+                    <blockquote><i>The Flag of Canada</i></blockquote>
+                    <p>Canada is the second-largest country in the world, surpassed only by Russia.
+                    Covering an expansive area of approximately 9.98 million square kilometers.
+                    It also accounts for 70% of the global supply. Québec alone produces more than 90% of Canada's maple syrup,
+                    earning it the title of the "Maple Syrup Capital of the World." </p>
+                </div>
             </section>
         </div>
         <section class="link">
             <h2>Web Dev Resources</h2>
+            <div class="links">
             <ul>
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></li>
                 <li><a href="https://www.w3schools.com/">W3Schools</a></li>
@@ -51,6 +60,7 @@
                 <li><a href="https://colorhunt.co/">Colorhunt</a></li>
                 <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
             </ul>
+            </div>
         </section>
     </main>
     <footer>
@@ -58,4 +68,5 @@
         <p id="lastModified"></p>
     </footer>
 </body>
+
 </html>
