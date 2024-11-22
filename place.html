@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Page</title>
+    <meta name="description" content="County/Place where I lived in">
+    <meta name="author" content="Kaizzer Gatan">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 1200px)">
+            <img src="images/hero-large.webp" alt="Hero Image">
+        </picture>
+        </section>
+        
+        <div class="data">
+            <h2>Data</h2>
+                <p>Area: 300,000 sq km</p>
+                <p>Population: 116,204,020</p>
+                <p>Capital: Manila</p>
+                <p>Languages: Filipino, English</p>
+                <p>Currency: Philippine Peso</p>
+                <p>Time Zone: GMT +8</p>
+                <p>Calling Code: +63</p>
+                <p>Internet TLD: .ph</p>
+        </div>
+
+        <div class="weather">
+            <h2>Weather <img src="images/weather-icon.svg" alt="Weather Icon" class="weather-icon"></h2>
+            <p>Temperature: <span id="temperature">30</span>°C</p>
+            <p>Conditions: Sunny</p>
+            <p>Wind: <span id="windSpeed">5</span> km/h</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> ❤️ Kaizzer Gatan ❤️ Alberta, Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
