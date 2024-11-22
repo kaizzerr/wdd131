@@ -59,6 +59,12 @@ main {
     text-align: center;
 }
 
+.weather::after {
+    content: ' - Stay Updated!';
+    color: var(--text-color);
+    font-weight: bold;
+}
+
 .weather-icon {
     display: block;
     width: 150px;
