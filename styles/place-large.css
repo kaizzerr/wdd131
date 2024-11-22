@@ -1,4 +1,13 @@
 @media (min-width: 600px) {
+    :root {
+        --primary-color: royalblue;
+        --secondary-color: #546A76;
+        --accent-color: red;
+        --text-color: #333;
+        --background-color: #f9f9f9;
+        --font-family: 'Roboto', sans-serif;
+    }
+    
     body {
         margin: auto;
         background-color: #f4f4f4;
@@ -87,6 +96,15 @@
 }
 
 @media (min-width: 1200px) {
+    :root {
+        --primary-color: royalblue;
+        --secondary-color: #546A76;
+        --accent-color: red;
+        --text-color: #333;
+        --background-color: #f9f9f9;
+        --font-family: 'Roboto', sans-serif;
+    }
+
     body {
         margin: auto;
         background-color: #f4f4f4;
