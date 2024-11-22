@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    border-bottom: 10px solid red;
+    border-bottom: 10px solid var(--accent-color);
 }
 
 header h1 {
@@ -44,14 +44,14 @@ main {
 }
 
 .data, .weather {
-    background: white;
+    background: var(--background-color);
     margin: 1rem;
     padding: 1rem;
     text-align: center;
 }
 
 .data h2, .weather h2 {
-    color: #546A76;
+    color: var(--secondary-color);
 }
 
 .weather {
@@ -74,6 +74,6 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: royalblue;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--background-color);
 }
