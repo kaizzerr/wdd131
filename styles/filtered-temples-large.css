@@ -1,0 +1,23 @@
+nav ul {
+    flex-direction: row;
+}
+
+@media (min-width: 600px) {
+    #temple-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    #temple-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
