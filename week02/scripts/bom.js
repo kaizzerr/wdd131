@@ -3,7 +3,7 @@ document.getElementById("lastModified").textContent = `Last Modification: ${docu
 
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('______');
+const list = document.querySelector('#list');
 const li = document.createElement('li');
 const deleteButton = document.createElement('button');
 
