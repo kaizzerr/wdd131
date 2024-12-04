@@ -1,0 +1,105 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #304146;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.star-rating {
+    text-align: center;
+}
+
+.star-rating label {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.star-rating label input[type="radio"] {
+    display: block;
+    margin: 15px auto 0;
+    width: 20px;
+    height: 20px;
+}
+
+.features-box label {
+    display: block;
+}
+
+.features-box input {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    overflow: hidden;
+}
+
+.optional {
+    color: darkblue;
+    font-size: 12px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #546A76;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #304146;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
