@@ -1,0 +1,34 @@
+body {
+    font-family: "Merriweather", sans-serif;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #420C09;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+p, figcaption {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #36454F;
+    color: white;
+}
