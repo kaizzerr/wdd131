@@ -1,0 +1,120 @@
+body {
+    font-family: "Merriweather", sans-serif;
+    color: black;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    background-color: #420C09;
+    color: white;
+}
+
+.burger {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.burger a {
+    color: white;
+    padding: 8px;
+}
+
+.burger a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .burger {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .burger.open {
+        display: flex;
+    }
+
+    header.open {
+        height: 200px;
+        justify-content: center;
+    }
+
+    header.open h1 {
+        display: none;
+    }
+
+    .hamburger::before {
+        content: "☰";
+    }
+
+    .hamburger.open::before {
+        content: "✖";
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .hamburger.open {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.hero picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.welcome {
+    position: absolute;
+    top: 30%;
+    left: 22.5%;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #36454F;
+    color: white;
+}

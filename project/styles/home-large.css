@@ -1,0 +1,36 @@
+nav ul {
+    flex-direction: row;
+}
+
+@media (min-width: 600px) {
+    .hamburger {
+        display: none;
+    }
+
+    .welcome {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        padding: 10px;
+        margin: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 5px;
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hamburger {
+        display: none;
+    }
+    .welcome {
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        padding: 10px;
+        margin: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 5px;
+        max-width: 600px;
+    }
+}
